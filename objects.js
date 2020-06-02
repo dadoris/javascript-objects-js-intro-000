@@ -2,7 +2,7 @@
 var playlist =
 {
   Slowdive: 'Alison',
-  My Bloody Valentine: 'Sometimes',
+  My_Bloody_Valentine: 'Sometimes',
   Phil Ochs: "Here's to the State of Mississippi"
 }
 
@@ -19,6 +19,6 @@ function updatePlaylist ( obj , artistName, songTitle  ){
 }
 
 function removeFromPlaylist (obj , songTitle ) {
-  delete obj.songTitle; 
+  delete obj.songTitle;
   return obj;
 }
