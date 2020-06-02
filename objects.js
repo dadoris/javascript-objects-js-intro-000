@@ -3,7 +3,7 @@ var playlist =
 {
   Slowdive: 'Alison',
   My_Bloody_Valentine: 'Sometimes',
-  Phil Ochs: "Here's to the State of Mississippi"
+  Phil Ochs: "Heres to the State of Mississippi"
 }
 
 
