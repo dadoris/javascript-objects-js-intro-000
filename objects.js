@@ -1,7 +1,7 @@
 
 var playlist =
 {
-  Slowdive: 'Alison'  
+  Slowdive: 'Alison'
 }
 
 
@@ -20,5 +20,3 @@ function removeFromPlaylist (obj , songTitle ) {
   delete obj.songTitle;
   return obj;
 }
-
-removeFromPlaylist(playlist, songTitle) ;
