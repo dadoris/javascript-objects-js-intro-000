@@ -15,7 +15,7 @@ function updatePlaylist ( obj , artistName, songTitle  ){
   return obj;
 }
 
-function removeFromPlaylist (playlist, 'Slowdrive') {
-  delete playlist.Slowdrive; 
-
+function removeFromPlaylist (obj , songTitle ) {
+  delete obj[songTitle] ;
+  return obj;
 }
