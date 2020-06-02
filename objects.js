@@ -14,3 +14,8 @@ function updatePlaylist ( obj , artistName, songTitle  ){
   obj[artistName ] = songTitle;
   return obj;
 }
+
+function removeFromPlaylist (playlist, 'Slowdrive') {
+  delete playlist.Slowdrive; 
+
+}
